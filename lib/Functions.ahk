@@ -129,3 +129,4 @@ Open(User, TimeStamp) {
 Exit() {
 	ExitApp
 }
+
