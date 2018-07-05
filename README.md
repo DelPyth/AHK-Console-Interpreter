@@ -1,5 +1,5 @@
-# AHK2Console
-This is not what you might think it is. It's a console that was made in AHK for the use of chatting in discord. The problem is trying to actually communicate.
+# AHK Console Interpreter
+This is exactly what you think it is.
 
-## Nothing is as it seems
-It might be overwelming to see and use it, but after you run the program, you'll start to understand the basics of what the program is *really* for
+Ever used python and it's awesome console interpreter and asked, "Hey, why isn't there one for AHK?"
+Well look no further! This will (soon) be your fancy console for the AHK interpreter with many, many features! 
