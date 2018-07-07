@@ -99,6 +99,7 @@ class Console {
 		return, Event
 	}
 
+	; Has been known to not work for whatever reason.
 	SetConsoleIcon(Path) {
 		hIcon := DllCall("LoadImage", "uint", 0, "str", Path, "uint", 1, "int", 0, "int", 0, "uint", 0x00000010)
 		return, DllCall("SetConsoleIcon", "int", hIcon)
