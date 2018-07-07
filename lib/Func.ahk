@@ -46,7 +46,7 @@ DisplayHelp(Con) {
 	))
 }
 
-; Minor but it helps in a lot of cases
+; Minor but it helps in a lot of cases.
 TrueFalse(Var, T, F := "") {
 	Return, Var ? T : F
 }
