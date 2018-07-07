@@ -1,4 +1,4 @@
-﻿/*
+/*
 	* Lib: JSON.ahk
 	*     JSON lib for AutoHotkey.
 	* Version:
@@ -83,7 +83,7 @@ class JSON {
 			*/
 
 			; Built In Vars
-			; Not needed, but still useful.
+			; Not needed, but still useful in a lot of situations.
 			text := RegExReplace(text, "i)\$\(Working_Dir\)", StrReplace(A_WorkingDir "\", "\", "\\"))
 			text := RegExReplace(text, "i)\$\(Base_Dir\)", StrReplace(A_ScriptDir "\", "\", "\\"))
 			text := RegExReplace(text, "i)\$\(Desktop\)", StrReplace(A_Desktop "\", "\", "\\"))
