@@ -2,7 +2,7 @@
 	Name:			AHK Console Interpreter
 	AHK Version:	1.1.28.2 [Tested on]
 	Author:			Delta
-	Description:	This is the interpreter for AHK in a whole knew way.
+	Description:	This is the interpreter for AHK in a whole new way.
 
 	Limitations:	Can run in U32 as of 7/6/2018.
 					Able to run U64 but can have possible memory leaks and/or other issues.
@@ -113,7 +113,7 @@ Loop
 			If (Settings_Arr[1] = "ExePath")
 				Settings.ExePath := Settings_Arr[2]
 			Else If (Settings_Arr[1] = "Ignore")
-				Settings.ExePath := Settings_Arr[2]
+				Settings.Ignore := Settings_Arr[2]
 		}
 		FileOpen(A_ScriptDir "\settings.json", "w").Write(JSON.Dump(Settings,, A_Tab))
 	} Else If (Text ~= "i)^Con\.Log\(") {													; Con.Log()
