@@ -40,8 +40,8 @@ SetWorkingDir, % A_ScriptDir
 	Read for settings or create the settings.
 	====================================================================
 */
-If (FileExist(A_ScriptDir "\" SplitPath(A_ScriptName).NameNoExt ".json")) {
-	Settings := JSON.LoadFile(A_ScriptDir "\" SplitPath(A_ScriptName).NameNoExt ".json")
+If (FileExist(A_ScriptDir "\settings.json")) {
+	Settings := JSON.LoadFile(A_ScriptDir "\settings.json")
 	Settings.ExePath := Settings.ExecPath.TF(Settings.ExecPath, Settings.ExecPath, A_AhkPath) ; If var is not blank, then set it to be the AHKpath.
 } Else {
 	Settings := {}
